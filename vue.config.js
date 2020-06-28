@@ -6,8 +6,12 @@ module.exports = {
                 'common': '@/common',
                 'components': '@/components',
                 'network': '@/network',
-                'views': '@/views'
+                'views': '@/views',
+                'vue$': 'vue/dist/vue.esm.js' 
             }
         }
-    }
+    },
+    devServer: {
+        disableHostCheck: true
+      }
 }
